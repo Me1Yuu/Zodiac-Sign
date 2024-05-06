@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    background-image: url(pictures/backgroundsigns.png);
+    font-family: 'Roboto', sans-serif;
+    background: cover;
+}
+.tabs {
+    background: gold;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 758px;
+    max-height: auto;
+    margin: 50px auto;
+    padding: 1px;
+}
+.tabs input[type="radio"] {
+    display: none;
+
+}
+.tabs label {
+    padding: 25px;
+    background: lightgray;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(26, 13, 104, 0.335), rgba(144, 192, 234, 0.736)), url(pictures/background.jpg);
+}
+.tabs .facts {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    order: 1;
+    display: none;
+    background-image: linear-gradient(rgba(26, 13, 104, 0.335), rgba(144, 192, 234, 0.736)), url(pictures/background.jpg); 
+}
+.tabs .facts h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+}
+.tabs input[type="radio"]:checked + label + .facts {
+    display: block;
+}
+.tabs input[type="radio"]:checked + label {
+    background: white;
+    background-image: linear-gradient(rgba(104, 62, 13, 0.335), rgba(218, 234, 144, 0.736)), url(pictures/background.jpg);    
+}
+.line-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.line-text p {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+h4 {
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+p {
+    margin-top: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+li {
+    color: white;
+    font-size: 20px;
+}
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-left:0;
+}
+#symbol, #element, #planet, #color, #gem, #flower {
+    border: 1px transparent;
+    margin: 20px;
+    padding: 20px;
+}
+.nocenter p{
+    font-size: 20px;
+    padding: 10px;
+}
+.nocenter h2 {
+    padding: 10px;
+    margin-bottom: 0px; 
+      
+}
+a {
+    color:white;
+    font-size: 25px;
+}
+.gold {
+    color: gold;
+    font-weight: bold;
+}
+#titlechange {
+    font-size: 40px;
+}
+.another-line-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.another-line-text p {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 15px;
+    word-spacing: 10px;
+}
+.another-one-line-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.another-one-line-text p {
+    color: rgba(255, 255, 255, 0.637);
+margin-top: 40px;
+margin-left: 50px;
+margin-right: 20px;
+font-size: 15px;
+word-spacing: 10px;
+}

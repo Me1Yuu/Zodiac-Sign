@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Estonia&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+/* THIS IS ONLY FOR INDEX.HTML */
+
+.title {
+    font-family: 'Smythe', cursive;
+    text-align: left;
+    font-size: 100px;
+    padding: 0;
+    margin: 20px;
+    background: linear-gradient(90deg, #00dbde,#fc00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#title-underline {
+    margin-top: 0px;
+}
+.title-definition {
+    font-family: 'Smythe', cursive;
+    text-align: left;
+    width: 800px;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.section img {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+body {background-image: linear-gradient(rgba(83, 95, 201, 0.729), rgba(196, 196, 82, 0.675), rgba(196, 112, 82, 0.572), rgba(82, 196, 126, 0.627), rgba(229, 144, 222, 0.62)), url(pictures/body_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.zodiac {
+    box-shadow: 0 0 20px rgb(25, 14, 91);
+    flex: 1 1 20em;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(26, 13, 104, 0.335), rgba(144, 192, 234, 0.736)), url(pictures/background.jpg);    
+    border-radius: 20px 20px 60px 60px;
+    margin: 30px;
+    text-align: center;
+}
+.zodiac-mid {
+    box-shadow: 0 0 20px rgb(25, 14, 91);
+    flex: 1 1 20em;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(144, 192, 234, 0.736), rgba(144, 192, 234, 0.736)), url(pictures/background.jpg);    
+    border-radius: 60px;
+    margin: 30px;
+    text-align: center;
+}
+.zodiac-bottom {
+    box-shadow: 0 0 20px rgb(25, 14, 91);
+    flex: 1 1 20em;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(144, 192, 234, 0.736), rgba(26, 13, 104, 0.335)), url(pictures/background.jpg);    
+    border-radius: 60px 60px 20px 20px;
+    margin: 30px;
+    text-align: center;
+}
+h4 {
+    font-family: 'Estonia', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: 'Smythe', cursive;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 130%;
+    color: white;
+    font-size: 30px;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.793);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+.btn:hover {
+    background: transparent;
+    color: black
+}
+#center {
+    border-radius: 100%;
+}
+#underline {
+    width: 100px;
+}
